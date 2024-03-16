@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Pridi", serif;
+    
+}
+
+:root{
+    --mainColor: #d7c4a0;
+    --textColor: #100b01;
+}
+
+
+section{
+    position: relative;
+}
+
+.content{
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 3rem;
+    color: #fff;
+    z-index: 1;
+    max-width: 500px;
+
+    
+  }
+
+  h1{
+    font-size: 60px;
+    color: var(--textColor);
+
+  }
+
+  p{
+    font-size: 40px;
+    color: var(--mainColor);
+  }
+
+.img1{
+    position: relative;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
