@@ -6,13 +6,15 @@
     font-family: "Pridi", serif;
     
 }
+
 :root{
-    --mainColor: #d7c4a0;
-    --textColor: #100b01;
+  --primaryColor: #100b01;
+  --fontColor: #d7c4a0;
 }
+
 header {
     display: flex;
-    background-color: var(--mainColor);
+    background-color: var(--primaryColor);
     align-items: center;
     justify-content: space-between;
     height: 80px;
@@ -22,7 +24,7 @@ header {
   
   h3{
     font-size: 25px;
-    color: var(--textColor);
+    color: var(--fontColor);
   }
 
   nav {
@@ -39,19 +41,19 @@ header {
   }
   
   nav a:hover {
-    color: var(--textColor);
+    color: var(--fontColor);
   }
 
   .login-btn{
-  background-color: var(--mainColor); 
+  background-color: var(--primaryColor); 
   color: #fff; 
   padding: 5px 12px; 
-  border: 2px solid var(--textColor); 
+  border: 2px solid var(--fontColor); 
   border-radius: 5px;
   font-size: 15px;
   }
 
   .login-btn:hover {
-    color: var(--textColor);
+    color: var(--fontColor);
   }
   

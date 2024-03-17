@@ -7,10 +7,10 @@ export default function HeroSection () {
     <section>
     <div className="content">
     <div className="text">
-        <h1>Welcome to Legal Connect</h1>
+        <h1>Welcome to Consulto</h1> 
         <p>Your one stop solution to all legal problems.</p>
     </div>
-    <img src="./assets/legal.jpg" className="img1"></img>
+    <img src="./assets/justice.jpeg" className="img1"></img>
     </div>
         
     </section>

@@ -4,7 +4,7 @@ import "./navbar.css";
 export default function Navbar() {
   return (
     <header>
-      <h3>Legal कनेक्ट</h3>
+      <h3>Consulto</h3>
       <nav>
         <a href="/#">Home</a>
         <a href="/#">About us</a>
